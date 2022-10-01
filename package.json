@@ -5,10 +5,18 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --ext .ts,.vue"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.11"
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nuxt": "3.0.0-rc.11",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
   },
   "dependencies": {
     "@chakra-ui/vue-next": "^1.0.0-alpha.15"
